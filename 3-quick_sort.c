@@ -7,6 +7,8 @@
 		 */
 		void quick_sort(int *array, size_t size)
 	{
+		int pivot;
+		int temp;
 		size_t i, j;
 	i = 0;
 
@@ -15,7 +17,7 @@
 			return;
 		}
 
-		int pivot = array[size - 1];			/* define pivot last element in the table.*/
+		pivot = array[size - 1];			/* define pivot last element in the table.*/
 
 
 		for (j = 0; j < size - 1; j++)
@@ -26,7 +28,7 @@
 		{
 				if (i != j)
 				{
-					int temp = array[i];		/*  Stocke l'élément à l'index i.*/
+					temp = array[i];		/*  Stocke l'élément à l'index i.*/
 
 					array[i] = array[j];		/* Replaces the element at index 'i' by 'j'*/
 					array[j] = temp;			/* Resets the element stored in 'temp' */
@@ -36,7 +38,7 @@
 			}
 		}
 
-		int temp = array[i];
+		temp = array[i];
 
 		array[i] = array[size - 1];
 		array[size - 1] = temp;
