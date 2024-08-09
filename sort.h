@@ -26,10 +26,7 @@
 		void quick_sort(int *array, size_t size);
 
 		void print_list(const listint_t *list);
-<<<<<<< HEAD
 		void print_array(const int *array, size_t size);
-=======
 		/* Declaration of the function for printing the list*/
->>>>>>> c9aec365490d7610fc34b4a6a3bf70c1394af0fa
 
 #endif
