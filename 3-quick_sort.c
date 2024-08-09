@@ -8,6 +8,7 @@
 		void quick_sort(int *array, size_t size)
 	{
 		size_t i, j;
+	i = 0;
 
 		if (size <= 1)
 		{
@@ -16,7 +17,6 @@
 
 		int pivot = array[size - 1];			/* define pivot last element in the table.*/
 
-			i = 0;
 
 		for (j = 0; j < size - 1; j++)
 		/* loop to go through all the elements in the table. Exect the last (pivot)*/
