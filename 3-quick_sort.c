@@ -10,9 +10,10 @@
 		int pivot;
 		int temp;
 		size_t i, j;
-	i = 0;
 
-		if (size <= 1)
+		i = 0;
+
+		if (array == NULL || size <= 1)
 		{
 			return;
 		}
