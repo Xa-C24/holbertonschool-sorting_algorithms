@@ -17,9 +17,7 @@
 		{
 			return;
 		}
-
 		pivot = array[size - 1];			/* define pivot last element in the table.*/
-
 
 		for (j = 0; j < size - 1; j++)
 		/* loop to go through all the elements in the table. Exect the last (pivot)*/
